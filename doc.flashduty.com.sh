@@ -4,5 +4,5 @@ DIR=$(realpath $0) && DIR=${DIR%/*}
 cd $DIR
 set -ex
 
-cd doc.flashduty.com
+cd /mnt/doc.flashduty.com
 git fetch --all && git reset --hard origin/main
