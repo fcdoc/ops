@@ -6,3 +6,4 @@ set -ex
 
 cd /mnt/doc.flashduty.com
 git fetch --all && git reset --hard origin/main
+chown www-data . -R
